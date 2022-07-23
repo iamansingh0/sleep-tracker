@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left,
+.right {
+    width: 50%;
+    height: 100%;
+}
+
+.left {
+    background-color: #5cdb95;
+}
+
+.right {
+    background-color: white;
+}
+
+.loginside {
+    height: 65%;
+    margin-top: 17%;
+    margin-bottom: 18%;
+    /* border: 1px double black; */
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.logo {
+    width: 14%;
+    margin-left: 43%;
+    margin-right: 43%;
+}
+.hello {
+    font-weight: 500;
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 2vh;
+}
+.brief {
+    width: 64%;
+    text-align: center;
+    color: rgb(164, 160, 160);
+    font-weight: 300;
+    font-size: .9rem;
+    margin-top: 1vh;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    /* border: 1px solid green; */
+    height: 50%;
+    justify-content: space-between;
+}
+
+form input,
+form a {
+    width: 64%;
+    margin-left: 18%;
+    margin-right: 18%;
+    height: 5vh;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+form .submit {
+    margin-top: 2vh;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: #5cdb95;
+    cursor: pointer;
+}
+
+form .google {
+    margin-top: -2vh;
+}
+
+form .password {
+    margin-top: -2vh;
+}
+.google {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: .5px solid rgb(205, 201, 201);
+    text-decoration: none;
+}
+.googleImg {
+    height: 27px;
+    width: 30px;
+    padding: 5px;
+}
+
+.googleP {
+    font-weight: 400;
+    font-size: 1rem;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    inset: auto -24rem 2rem auto;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #5cdb95;
+}
